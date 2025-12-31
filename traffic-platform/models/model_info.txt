@@ -1,6 +1,3 @@
-YOLO Models for Traffic Management Platform
-=============================================
-
 Downloaded models:
 - yolov8n.pt: Lightweight YOLO model for fast inference
 - yolov8s.pt: Small YOLO model with better accuracy
