@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\bridges.py
-# hypothesis_version: 6.148.3
-
-['bridges', 'directed', 'has_bridges', 'inf', 'local_bridges', 'multigraph', 'weight']

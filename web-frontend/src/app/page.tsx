@@ -162,62 +162,109 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Platform Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-          {platforms.map((platform) => (
-            <div
-              key={platform.id}
-              className={`platform-card ${platform.id} ${!platform.enabled ? 'disabled' : ''} 
-                         rounded-2xl p-8 text-white cursor-pointer animate-pulse-hover relative overflow-hidden`}
-              onClick={() => {
-                if (platform.enabled) {
-                  if (platform.id === 'traffic') {
-                    // Open traffic dashboard in new tab
-                    window.open('http://localhost:5000', '_blank')
-                  } else {
+        {/* Featured Platform - Traffic Management */}
+        <div className="mb-12">
+          <div className="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-3xl p-8 text-white relative overflow-hidden">
+            <div className="relative z-10">
+              <div className="flex items-center justify-between mb-6">
+                <div className="flex items-center space-x-4">
+                  <div className="text-5xl">🚦</div>
+                  <div>
+                    <h3 className="text-3xl font-bold">Traffic Management System</h3>
+                    <p className="text-blue-100 text-lg">AI-Powered Smart Traffic Control for Dehradun</p>
+                  </div>
+                </div>
+                <div className="bg-green-500 bg-opacity-20 px-4 py-2 rounded-full">
+                  <span className="text-green-100 font-medium">🟢 Live & Operational</span>
+                </div>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                <div className="bg-white bg-opacity-10 rounded-lg p-4">
+                  <div className="text-2xl font-bold">10</div>
+                  <div className="text-blue-100">Active Signals</div>
+                </div>
+                <div className="bg-white bg-opacity-10 rounded-lg p-4">
+                  <div className="text-2xl font-bold">783ms</div>
+                  <div className="text-blue-100">Avg Response</div>
+                </div>
+                <div className="bg-white bg-opacity-10 rounded-lg p-4">
+                  <div className="text-2xl font-bold">97.5%</div>
+                  <div className="text-blue-100">System Uptime</div>
+                </div>
+              </div>
+              
+              <p className="text-blue-100 text-lg mb-6 leading-relaxed">
+                Real-time emergency vehicle detection with computer vision, intelligent signal coordination, 
+                and optimized routing for ambulances, police, and fire trucks across Dehradun's traffic network.
+              </p>
+              
+              <div className="flex flex-wrap gap-4">
+                <button
+                  onClick={() => router.push('/traffic')}
+                  className="bg-white text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition duration-200 font-medium flex items-center"
+                >
+                  <span>🎛️ Control Dashboard</span>
+                  <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+                <button
+                  onClick={() => window.open('http://localhost:5000', '_blank')}
+                  className="bg-blue-500 bg-opacity-30 text-white px-6 py-3 rounded-lg hover:bg-opacity-40 transition duration-200 font-medium flex items-center"
+                >
+                  <span>🗺️ Live Map View</span>
+                  <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            
+            {/* Background decorations */}
+            <div className="absolute top-0 right-0 w-64 h-64 bg-white bg-opacity-5 rounded-full -mr-32 -mt-32"></div>
+            <div className="absolute bottom-0 left-0 w-48 h-48 bg-white bg-opacity-5 rounded-full -ml-24 -mb-24"></div>
+          </div>
+        </div>
+
+        {/* Other Platforms Grid */}
+        <div className="mb-8">
+          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Other Platforms in Development</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {platforms.filter(p => p.id !== 'traffic').map((platform) => (
+              <div
+                key={platform.id}
+                className={`platform-card ${platform.id} ${!platform.enabled ? 'disabled' : ''} 
+                           rounded-2xl p-6 text-white cursor-pointer relative overflow-hidden transition-transform hover:scale-105`}
+                onClick={() => {
+                  if (platform.enabled) {
                     router.push(platform.route)
                   }
-                }
-              }}
-            >
-              <div className="relative z-10">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="text-4xl">{platform.icon}</div>
-                  <div className={`px-3 py-1 rounded-full text-sm font-medium ${
-                    platform.enabled 
-                      ? 'bg-green-500 bg-opacity-20 text-green-100' 
-                      : 'bg-gray-500 bg-opacity-20 text-gray-200'
-                  }`}>
-                    {platform.status}
+                }}
+              >
+                <div className="relative z-10">
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="text-3xl">{platform.icon}</div>
+                    <div className="bg-gray-500 bg-opacity-30 px-3 py-1 rounded-full text-sm">
+                      Coming Soon
+                    </div>
+                  </div>
+                  
+                  <h3 className="text-xl font-bold mb-3">{platform.name}</h3>
+                  <p className="text-gray-200 leading-relaxed">
+                    {platform.description}
+                  </p>
+                  
+                  <div className="mt-4 text-sm text-gray-300">
+                    Platform under development
                   </div>
                 </div>
                 
-                <h3 className="text-2xl font-bold mb-3">{platform.name}</h3>
-                <p className={`text-lg leading-relaxed ${!platform.enabled ? 'text-gray-300' : ''}`}>
-                  {platform.description}
-                </p>
-                
-                {platform.enabled && (
-                  <div className="mt-6 flex items-center text-sm font-medium">
-                    <span>Access Platform</span>
-                    <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </div>
-                )}
-                
-                {!platform.enabled && (
-                  <div className="mt-6 text-sm text-gray-300">
-                    Platform under development
-                  </div>
-                )}
+                {/* Background decoration */}
+                <div className="absolute top-0 right-0 w-24 h-24 bg-white bg-opacity-10 rounded-full -mr-12 -mt-12"></div>
               </div>
-              
-              {/* Background decoration */}
-              <div className="absolute top-0 right-0 w-32 h-32 bg-white bg-opacity-10 rounded-full -mr-16 -mt-16"></div>
-              <div className="absolute bottom-0 left-0 w-24 h-24 bg-white bg-opacity-5 rounded-full -ml-12 -mb-12"></div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         {/* System Status */}
@@ -243,28 +290,28 @@ export default function Home() {
           <h3 className="text-xl font-semibold text-gray-900 mb-6">Quick Actions</h3>
           <div className="flex flex-wrap justify-center gap-4">
             <button 
-              onClick={() => window.open('http://localhost:5000', '_blank')}
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-200 font-medium"
+              onClick={() => router.push('/traffic')}
+              className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition duration-200 font-medium flex items-center"
             >
-              🚦 Open Traffic Dashboard
+              🎛️ Traffic Control Panel
             </button>
             <button 
-              className="bg-gray-300 text-gray-600 px-6 py-3 rounded-lg cursor-not-allowed"
+              onClick={() => window.open('http://localhost:5000', '_blank')}
+              className="bg-indigo-600 text-white px-8 py-4 rounded-lg hover:bg-indigo-700 transition duration-200 font-medium flex items-center"
+            >
+              🗺️ Live Traffic Map
+            </button>
+            <button 
+              className="bg-gray-300 text-gray-600 px-8 py-4 rounded-lg cursor-not-allowed"
               disabled
             >
               🩸 Blood Platform (Coming Soon)
             </button>
             <button 
-              className="bg-gray-300 text-gray-600 px-6 py-3 rounded-lg cursor-not-allowed"
+              className="bg-gray-300 text-gray-600 px-8 py-4 rounded-lg cursor-not-allowed"
               disabled
             >
               📋 Complaint System (Coming Soon)
-            </button>
-            <button 
-              className="bg-gray-300 text-gray-600 px-6 py-3 rounded-lg cursor-not-allowed"
-              disabled
-            >
-              🏗️ Architecture Platform (Coming Soon)
             </button>
           </div>
         </div>

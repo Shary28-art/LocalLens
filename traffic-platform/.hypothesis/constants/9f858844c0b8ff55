@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\core.py
-# hypothesis_version: 6.148.3
-
-['core_number', 'directed', 'k_core', 'k_corona', 'k_crust', 'k_shell', 'k_truss', 'multigraph', 'onion_layers']

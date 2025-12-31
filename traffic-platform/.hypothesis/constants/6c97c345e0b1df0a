@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\torch\distributed\tensor\_ops\utils.py
-# hypothesis_version: 6.148.3
-
-['List[Tensor]', 'Tensor', '_P', '_T', 'memory_format', 'output spec is None']

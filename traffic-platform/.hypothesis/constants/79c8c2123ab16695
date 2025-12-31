@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\ultralytics\models\nas\model.py
-# hypothesis_version: 6.148.3
-
-[640, '.pt', '.yaml', '.yml', 'coco', 'detect', 'predictor', 'validator', 'yolo_nas_s.pt']

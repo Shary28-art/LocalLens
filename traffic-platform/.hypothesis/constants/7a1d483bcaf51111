@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\geopy\geocoders\yandex.py
-# hypothesis_version: 6.148.3
-
-['%(lon)s,%(lat)s', '%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', ', ', '/1.x/', '?', 'GeoObject', 'GeoObjectCollection', 'Point', 'Yandex', 'apikey', 'description', 'error', 'featureMember', 'format', 'geocode', 'json', 'kind', 'lang', 'message', 'name', 'pos', 'response', 'results']

@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\bipartite\edgelist.py
-# hypothesis_version: 6.148.3
-
-['#', 'bipartite', 'directed', 'generate_edgelist', 'parse_edgelist', 'rb', 'read_edgelist', 'utf-8', 'wb', 'write_edgelist']

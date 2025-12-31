@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\flow\mincost.py
-# hypothesis_version: 6.148.3
-
-['capacity', 'cost_of_flow', 'demand', 'inf', 'max_flow_min_cost', 'min_cost_flow', 'min_cost_flow_cost', 'weight']

@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\readwrite\json_graph\tree.py
-# hypothesis_version: 6.148.3
-
-['G is not a tree.', 'G is not directed.', 'children', 'id', 'tree_data', 'tree_graph']

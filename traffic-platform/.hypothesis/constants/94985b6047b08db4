@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\geopy\geocoders\pickpoint.py
-# hypothesis_version: 6.148.3
-
-['/v1/forward', '/v1/reverse', 'PickPoint', 'api.pickpoint.io', 'key']

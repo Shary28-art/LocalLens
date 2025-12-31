@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\geopy\geocoders\mapquest.py
-# hypothesis_version: 6.148.3
-
-['%(lat)s,%(lon)s', '%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', ', ', '/', '?', 'MapQuest', 'adminArea1', 'adminArea2', 'adminArea3', 'adminArea4', 'adminArea5', 'adminArea6', 'boundingBox', 'key', 'lat', 'latLng', 'lng', 'location', 'locations', 'maxResults', 'postalCode', 'results', 'street', 'www.mapquestapi.com']

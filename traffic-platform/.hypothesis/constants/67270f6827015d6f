@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\utils\configs.py
-# hypothesis_version: 6.148.3
-
-[')', ', ', 'Config', '__annotations__', 'algos', 'backend_priority', 'backends', 'cache', 'fallback_to_nx', 'generators', 'warnings_to_ignore']

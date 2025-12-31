@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\geopy\geocoders\maptiler.py
-# hypothesis_version: 6.148.3
-
-['%(lon)s,%(lat)s', '%s,%s', '%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', ',', '/', '?', 'MapTiler', 'api.maptiler.com', 'bbox', 'center', 'features', 'key', 'language', 'place_name', 'proximity', 'utf-8']

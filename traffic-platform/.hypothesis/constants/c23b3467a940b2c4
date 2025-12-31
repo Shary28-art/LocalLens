@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\geopy\geocoders\baidu.py
-# hypothesis_version: 6.148.3
-
-[101, 102, 200, 211, 300, 500, '%s.geocode: %s', '%s.reverse: %s', '%s?%s', '%s?%s%s', '%s?%s&sn=%s', '/geocoder/v2/', '/geocoding/v3/', ':', 'Baidu', 'BaiduV3', 'Invalid AK', 'Invalid SN', 'Invalid request.', 'MCODE Error', 'No AK', 'Quota Error.', 'address', 'ak', 'formatted_address', 'json', 'lat', 'level', 'lng', 'location', 'output', 'result', 'status', 'utf-8', '|']

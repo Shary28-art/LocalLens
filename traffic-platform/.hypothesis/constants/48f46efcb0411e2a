@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\ultralytics\models\yolo\world\train.py
-# hypothesis_version: 6.148.3
-
-['/', 'category_names', 'channels', 'clip:ViT-B/32', 'compile', 'cuda', 'names', 'nc', 'texts', 'train', 'txt_feats', 'val', 'yaml_file']

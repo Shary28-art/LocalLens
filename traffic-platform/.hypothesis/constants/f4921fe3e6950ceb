@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\bipartite\matrix.py
-# hypothesis_version: 6.148.3
-
-['biadjacency_matrix', 'csr', 'i', 'u', 'weight']

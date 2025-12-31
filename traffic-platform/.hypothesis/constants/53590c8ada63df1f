@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\classes\digraph.py
-# hypothesis_version: 6.148.3
-
-['DiGraph', '_adj', '_pred', '_succ', 'adj', 'degree', 'edges', 'in_degree', 'in_edges', 'out_degree', 'out_edges', 'pred', 'succ']

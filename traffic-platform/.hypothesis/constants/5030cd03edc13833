@@ -1,4 +1,0 @@
-# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\ultralytics\models\yolo\pose\val.py
-# hypothesis_version: 6.148.3
-
-[0.53, '%11s', '%22s', 'Box', 'Box(P', 'Class', 'Images', 'Instances', 'Pose', 'Pose(P', 'R', 'batch_idx', 'bbox', 'bboxes', 'cls', 'conf', 'extra', 'imgsz', 'keypoints', 'kpt_shape', 'kpts', 'mAP50', 'mAP50-95)', 'ori_shape', 'path', 'pose', 'predictions.json', 'ratio_pad', 'tp_p']
