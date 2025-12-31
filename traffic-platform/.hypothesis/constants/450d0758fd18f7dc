@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\efficiency_measures.py
+# hypothesis_version: 6.148.3
+
+['directed', 'efficiency', 'global_efficiency', 'local_efficiency']

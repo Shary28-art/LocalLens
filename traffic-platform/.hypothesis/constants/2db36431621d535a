@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\torchvision\datasets\dtd.py
+# hypothesis_version: 6.148.3
+
+['/', 'dtd', 'images', 'labels', 'split', 'test', 'train', 'val']

@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\flow\capacityscaling.py
+# hypothesis_version: 6.148.3
+
+['capacity', 'capacity_scaling', 'demand', 'excess', 'flow', 'inf', 'potential', 'undirected', 'weight']

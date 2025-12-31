@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\coloring\__init__.py
+# hypothesis_version: 6.148.3
+
+['equitable_color', 'greedy_color']

@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\torch\distributed\_shard\sharded_tensor\_ops\init.py
+# hypothesis_version: 6.148.3
+
+['a', 'b', 'kwargs', 'mean', 'mode', 'nonlinearity', 'std', 'tensor', 'val']

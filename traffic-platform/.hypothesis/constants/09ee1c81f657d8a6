@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\yarl\_parse.py
+# hypothesis_version: 6.148.3
+
+[65535, '#', '&', '/', '/#', '//', '/?', '/?#', '/?#@:', ':', '=', '?', '@', 'Invalid IPv6 URL', 'NFKC', '[', ']', 'v']

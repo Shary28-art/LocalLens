@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\torchvision\datasets\pcam.py
+# hypothesis_version: 6.148.3
+
+['.gz', 'RGB', 'images', 'pcam', 'split', 'targets', 'test', 'train', 'val', 'x', 'y']

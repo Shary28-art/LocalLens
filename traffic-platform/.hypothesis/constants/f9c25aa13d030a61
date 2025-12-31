@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\geopy\adapters.py
+# hypothesis_version: 6.148.3
+
+[400, '.', '://', 'Service timed out', 'http://', 'http://%s', 'https://', 'retry-after', 'session', 'ssl_context', 'timed out', 'unauthorized', 'unreachable', 'utf-8']

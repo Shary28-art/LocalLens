@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\lazy_imports.py
+# hypothesis_version: 6.148.3
+
+['EAGER_IMPORT', '__class__', '__file__', '__frame_data', '_lazy_import', 'attach', 'code_context', 'filename', 'function', 'lineno', 'spec']

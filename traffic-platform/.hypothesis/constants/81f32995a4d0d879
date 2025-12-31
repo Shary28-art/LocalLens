@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\geopy\geocoders\opencage.py
+# hypothesis_version: 6.148.3
+
+[200, '%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', ',', '/', '/geocode/v1/json', '?', 'OpenCage', 'api.opencagedata.com', 'bounds', 'code', 'countrycode', 'formatted', 'geometry', 'key', 'language', 'lat', 'lng', 'message', 'no_annotations', 'q', 'results', 'status']

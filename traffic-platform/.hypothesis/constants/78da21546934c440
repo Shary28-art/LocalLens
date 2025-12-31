@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\ultralytics\models\rtdetr\train.py
+# hypothesis_version: 6.148.3
+
+[1.0, 'channels', 'cls_loss', 'giou_loss', 'l1_loss', 'nc', 'train', 'val']

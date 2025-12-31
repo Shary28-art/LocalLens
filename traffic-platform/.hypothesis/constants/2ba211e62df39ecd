@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\flow\utils.py
+# hypothesis_version: 6.148.3
+
+['CurrentEdge', 'G', 'Level', 'R', '_curr', '_edges', '_it', 'active', 'build_flow_dict', 'capacity', 'detect_unboundedness', 'flow', 'inactive', 'inf']

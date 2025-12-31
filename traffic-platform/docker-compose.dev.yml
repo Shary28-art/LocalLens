@@ -1,0 +1,71 @@
+version: '3.8'
+
+services:
+  # PostgreSQL database for traffic platform
+  traffic-db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: local_lens_traffic
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5436:5432"
+    volumes:
+      - traffic_db_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Redis for caching and session management
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Traffic Management Service
+  traffic-service:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3005:5000"
+    environment:
+      - FLASK_ENV=development
+      - FLASK_PORT=5000
+      - DATABASE_URL=postgresql://postgres:postgres@traffic-db:5432/local_lens_traffic
+      - REDIS_URL=redis://redis:6379
+      - LOG_LEVEL=DEBUG
+      - DETECTION_CONFIDENCE_THRESHOLD=0.85
+      - EMERGENCY_VEHICLE_COLORS=blue,red,white
+      - EMERGENCY_OVERRIDE_DURATION=60
+      - DEFAULT_GREEN_DURATION=30
+      - DEFAULT_RED_DURATION=45
+    depends_on:
+      traffic-db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - .:/app
+      - /app/models  # Volume for YOLO models
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  traffic_db_data:
+  redis_data:

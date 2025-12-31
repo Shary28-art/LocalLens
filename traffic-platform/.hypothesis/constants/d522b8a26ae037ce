@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\operators\binary.py
+# hypothesis_version: 6.148.3
+
+['G', 'H', 'compose', 'difference', 'disjoint_union', 'full_join', 'intersection', 'symmetric_difference', 'union']

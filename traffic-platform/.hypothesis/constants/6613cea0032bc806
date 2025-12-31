@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\tree\recognition.py
+# hypothesis_version: 6.148.3
+
+['G has no nodes.', 'is_arborescence', 'is_branching', 'is_forest', 'is_tree', 'undirected']

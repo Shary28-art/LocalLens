@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\simple_paths.py
+# hypothesis_version: 6.148.3
+
+['all_simple_paths', 'is_simple_path', 'multigraph', 'weight']

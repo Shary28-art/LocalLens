@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\geopy\geocoders\banfrance.py
+# hypothesis_version: 6.148.3
+
+['%s.geocode: %s', '%s.reverse: %s', '%s://%s%s', ',', '/', '/reverse', '/search', '?', 'BANFrance', 'coordinates', 'features', 'geometry', 'label', 'lat', 'limit', 'lon', 'properties', 'q']

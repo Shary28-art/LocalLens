@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\geopy\geocoders\databc.py
+# hypothesis_version: 6.148.3
+
+['%s.geocode: %s', '%s://%s%s', '/addresses.geojson', '?', 'DataBC', 'accessPoint', 'addressString', 'any', 'coordinates', 'features', 'frontDoorPoint', 'fullAddress', 'geometry', 'locationDescriptor', 'maxResults', 'parcelPoint', 'properties', 'rooftopPoint', 'routingPoint', 'setBack']

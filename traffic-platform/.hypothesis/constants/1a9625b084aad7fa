@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\linalg\modularitymatrix.py
+# hypothesis_version: 6.148.3
+
+[0.5, 'csr', 'directed', 'modularity_matrix', 'multigraph', 'undirected', 'weight']

@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\linalg\attrmatrix.py
+# hypothesis_version: 6.148.3
+
+['attr_matrix', 'attr_sparse_matrix', 'edge_attr', 'node_attr', 'weight']

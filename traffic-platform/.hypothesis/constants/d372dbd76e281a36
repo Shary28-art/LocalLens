@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\ultralytics\models\yolo\yoloe\train.py
+# hypothesis_version: 6.148.3
+
+['box', 'channels', 'cls', 'compile', 'dfl', 'mobileclip:blt', 'names', 'nc', 'overlap_mask', 'train', 'val', 'yaml_file']

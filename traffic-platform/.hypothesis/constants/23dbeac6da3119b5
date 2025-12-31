@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\assortativity\pairs.py
+# hypothesis_version: 6.148.3
+
+['attribute', 'in', 'node_attribute_xy', 'node_degree_xy', 'out', 'weight']

@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\generators\trees.py
+# hypothesis_version: 6.148.3
+
+['NIL', 'prefix_tree', 'random_labeled_tree', 'root', 'roots', 'seed']

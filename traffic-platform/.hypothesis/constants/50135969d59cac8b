@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\algorithms\approximation\distance_measures.py
+# hypothesis_version: 6.148.3
+
+['Graph not connected.', 'approximate_diameter', 'diameter']

@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\linalg\spectrum.py
+# hypothesis_version: 6.148.3
+
+['adjacency_spectrum', 'laplacian_spectrum', 'modularity_spectrum', 'weight']

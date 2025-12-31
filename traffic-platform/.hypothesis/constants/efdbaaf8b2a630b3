@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\ultralytics\utils\dist.py
+# hypothesis_version: 6.148.3
+
+['--master_port', '--nproc_per_node', '-m', '.', '127.0.0.1', 'DDP', '_temp_', 'utf-8', 'w+']

@@ -1,0 +1,4 @@
+# file: C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\networkx\generators\spectral_graph_forge.py
+# hypothesis_version: 6.148.3
+
+['G', 'identity', 'modularity', 'spectral_graph_forge', 'weight']
