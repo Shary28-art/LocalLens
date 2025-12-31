@@ -1,8 +1,3 @@
-"""
-Database Management Module
-Handles PostgreSQL database operations for traffic management system
-"""
-
 import os
 import logging
 import psycopg2
