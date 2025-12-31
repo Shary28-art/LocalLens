@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Traffic Management Platform - Development Setup Script
 # This script sets up the development environment for the traffic platform
 
