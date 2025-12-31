@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""
-Script to download required YOLO models for emergency vehicle detection
-"""
-
 import os
 import sys
 import requests
